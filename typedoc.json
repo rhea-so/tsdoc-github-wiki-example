@@ -2,7 +2,8 @@
   "$schema": "https://typedoc.org/schema.json",
   "out": "./wiki",
   "name": "TSDoc GitHub Wiki Example",
-  "entryPoints": ["src/index.ts"],
+  "entryPoints": ["src/**/*.ts"],
+  "exclude": ["src/**/index.ts", "src/**/*.spec.ts"],
   "plugin": ["typedoc-github-wiki-theme", "typedoc-plugin-markdown"],
   "githubPages": false
 }
