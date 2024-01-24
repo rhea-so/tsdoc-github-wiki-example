@@ -34,8 +34,7 @@ jobs:
       - name: Build Documentation
         run: npm run docs
 
-      - name: Configure GitHub Wiki
-        uses: actions4gh/configure-wiki@v1
-
-      - name: Deploy GitHub Wiki
-        uses: actions4gh/deploy-wiki@v1
+      - name: Sync GitHub Wiki
+        uses: spenserblack/actions-wiki@main
+        with:
+          path: wiki
