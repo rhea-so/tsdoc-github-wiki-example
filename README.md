@@ -1,5 +1,7 @@
 # TSDoc GitHub Wiki Example
 
+> If you want monorepo example, please go to https://github.com/rhea-so/monorepo-tsdoc-github-wiki-example
+
 Usage:
 
 - [typedoc](https://github.com/TypeStrong/typedoc)
