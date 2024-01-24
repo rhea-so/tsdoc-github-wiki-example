@@ -1,7 +1,5 @@
 /**
  * Calculator class for basic arithmetic operations.
- * @module calculator
- * @category calculator
  * @class Calculator
  */
 export class Calculator {

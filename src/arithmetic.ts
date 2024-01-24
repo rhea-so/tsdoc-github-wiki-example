@@ -1,4 +1,9 @@
 /**
+ * Arithmetic module for basic arithmetic operations.
+ * @packageDocumentation
+ */
+
+/**
  * Adds two numbers.
  * @param x The first number.
  * @param y The second number.

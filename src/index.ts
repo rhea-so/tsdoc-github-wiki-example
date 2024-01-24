@@ -1,2 +1,2 @@
-export * from "./calculator";
-export * from "./arithmetic";
+export * as Calculator from "./calculator";
+export * as Arithmetic from "./arithmetic";
