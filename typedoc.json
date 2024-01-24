@@ -1,5 +1,6 @@
 {
   "$schema": "https://typedoc.org/schema.json",
+  "out": "./wiki",
   "name": "TSDoc GitHub Wiki Example",
   "entryPoints": ["src/index.ts"],
   "plugin": ["typedoc-github-wiki-theme", "typedoc-plugin-markdown"]
