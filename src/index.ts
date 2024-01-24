@@ -1,2 +1,2 @@
-export * from "./sub";
-export * from "./sum";
+export * from "./calculator";
+export * from "./arithmetic";
