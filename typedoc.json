@@ -3,5 +3,6 @@
   "out": "./wiki",
   "name": "TSDoc GitHub Wiki Example",
   "entryPoints": ["src/index.ts"],
-  "plugin": ["typedoc-github-wiki-theme", "typedoc-plugin-markdown"]
+  "plugin": ["typedoc-github-wiki-theme", "typedoc-plugin-markdown"],
+  "githubPages": false
 }
